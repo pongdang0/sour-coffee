@@ -337,11 +337,13 @@ tr, td, th{
     display: inline;
 }
 .memu-category{
+    font-family: 'S-CoreDream-8heady';
     padding: 0 0 10px 0;
     margin: 15px 0 20px 0;
     border-bottom: 2px solid #006934;
 }
 .memu-category2{
+    font-family: 'S-CoreDream-8heady';
     padding: 10px 0 10px 0;
     margin: 18px 0 20px 0;
     border-bottom: 2px solid #006934;
@@ -492,8 +494,8 @@ td.email-2{
 }
 .map-stiker{
     position: absolute;
-    right: 420px;
-    bottom: -630px;
+    right: 397px;
+    bottom: -320px;
 }
 .map-table{
     text-align: center;
@@ -529,7 +531,7 @@ table img{
 }
 /* moving text */
 .animated-title2{
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 800;
     color: #006934;
     position: relative;
@@ -554,8 +556,8 @@ table img{
 }
 @media (hover: hover) and (min-width: 1200px){
     .animated-title2 .content2{
-        -wedkit-transform: translateY(calc(100% - 4rem));
-        transform: translateY(calc(100% - 6.8rem));
+        -wedkit-transform: translateY(calc(100% - 8rem));
+        transform: translateY(calc(100% - 5.1rem));
     }
 }
 /* ---------------------------CAFE MAP END------------------------ */

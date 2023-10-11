@@ -1,0 +1,397 @@
+@media screen and (max-width: 1000px){
+    .top-banner{
+        background-color: #006934;
+        font-size: 14px;
+        color: fff;
+        padding: 5px 0 5px 0;
+        display: block;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+    .memu-bar .memu-logo{
+        width: 50%;
+        height: auto;
+    }
+    .memu-bar .memu-logo img{
+        max-width: 50%;
+        height: auto;
+        padding: 10px 0 0 0;
+    }
+    .memu-bar .memu-logo a{
+        text-decoration: none;
+        display: inline;
+        vertical-align: bottom;
+        margin: 0 6px 2px 0;
+    }
+    .memu-bar .memu-logo a:hover{
+        vertical-align: bottom;
+        text-decoration: none;
+        margin: 0 6px 2px 0;
+    }
+    .memu-bar .memu-logo2 a{
+        display: none;
+    }
+    .memu-bar .memu-text a{
+        text-align: center;
+        font-size: 22px;
+        text-decoration: none;
+        color: #006934;
+        margin: 10px 8px 10px 8px;
+        display: inline-block;
+        padding: 6px 14px 6px 14px;
+    }
+    .memu-bar .memu-text a:hover{
+        text-align: center;
+        border-radius: 4rem;
+        background-color:#006934;
+        color: #fff;
+        padding: 6px 14px 6px 14px;
+        margin: 10px 8px 10px 8px;
+    }
+    .memu-bar{
+        background-color: #ffffe0;
+        text-align: center;
+        color: #006934;
+        position: fixed;
+        top: 28px;
+        width: 100%;
+        border-bottom: 2px solid #006934;
+        justify-content: center;
+        z-index: 1;
+    }
+    #memu-youtube-icon{
+        padding:0 15px 0 15px;
+        width: 40%;
+        height: auto;
+    }
+    .main-media-icon img{
+        margin: 0px 0 -10px 0;
+        max-width: 40%;
+        height: auto;
+    }
+}
+/*---top banner + memu bar END---*/
+@media screen and (max-width: 1000px){
+    .main-banner img{
+        max-width: 100%; 
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+    .main-banner{
+        display: block;
+        margin: 10px auto 1px auto;
+    }
+    hr{
+        border: none;
+    }
+    h1{
+        font-size: 30px;
+    
+    }
+    #gold{
+        color: #f2be3b
+    }
+    h2{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    table{
+        border: 2px solid #006934;
+    }
+    tr, td{
+        border: 2px solid #006934;
+    }
+    .sub-banner1 {max-width: 80%; height: auto; }
+    .sub-banner1 img{
+        width: 125%;
+        height: auto;
+        display: block;
+        margin: -1px auto -1px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-banner2 {display: none;}
+    .sub-banner3 {display: none;}
+    .none{
+        display: none;
+    }
+    /* moving text */
+    .animated-title{
+        font-size: 25px;
+        font-weight: 800;
+        color: #fff;
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin: 0 auto -7px auto;
+        white-space: nowrap;
+        display: block;
+    }
+    .animated-title .track{
+        position: absolute;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 20s linear infinite;
+    }
+    @keyframes marquee {
+        from {transform: translateX(0);}
+        to {transform: translateX(-50%);}
+    }
+    @media (hover: hover) and (min-width: 1200px){
+        .animated-title .content{
+            -wedkit-transform: translateY(calc(100% - 4rem));
+            transform: translateY(calc(100% - 4rem));
+        }
+    }
+    .button-banner {max-width: 100%; height: auto;}
+    .button-banner{
+        display: block;
+        margin: 0 auto 1px auto;
+    }
+    .button-banner img{
+        display: block;
+        margin: -1px;
+        padding: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .header{
+        margin: 16px auto 16px auto;
+        display: block;
+        border-top: 2px solid #006934;
+        border-bottom: 2px solid #006934;
+    }
+    .header1{
+        font-size: 40px;
+        margin: 0 auto 0 auto;
+        padding: 6px 2px 0 10px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+    }
+    .header2{
+        vertical-align: bottom;
+        font-size: 35px;
+        display: inline-block;
+        margin: 100px 10px 5px 10px;
+    }
+    .soursour{
+        vertical-align: bottom;
+        display: inline;
+        margin: 20px 0 0 0;
+        padding: 105px 0 0 10px;
+        width: 100%;
+        height: auto;
+    }
+    .soursour img{
+        max-width: 100%;
+        height: auto;
+    }
+    .bottom-icon img{
+        display: inline;
+        margin: 12px auto 0 auto;
+        width: 40px;
+        height: 40px;
+        padding: 0 10px 15px 10px;
+    }
+    .bottom-icon{
+        margin: 200px auto 0 auto;
+        width: 100%;
+        height: 68px;
+    }
+    .bottom-name{
+        font-family:'S-CoreDream-8heady';
+        color: #f2be3b;
+        margin: 40px 100px 5px 0;
+        font-size: 25px;
+        text-align: left;
+        padding-left: 230px;
+    }
+    .bottom-information{
+        line-height: 200%;
+        margin: 15px 100px 15px 0;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 230px;
+    }
+    .bottom-information2{
+        margin: 15px 100px 80px 0;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 230px;
+    }
+}
+/* ---------------------------memu page------------------------ */
+@media screen and (max-width: 1000px){
+    .main-banner2{
+        display: block;
+        padding : 0px;
+        width: 100%;
+        height: auto;
+        border-bottom: none;
+        margin: 10px 0 0 0;
+    }
+    .main-banner2 img{
+        max-width: 100%;
+        height: auto;
+    }
+    .memu-title-1{
+        font-size: 25px;
+        margin: 200px 0 0 0;
+        display: block;
+    }
+    .memu-title-2{
+        font-family:'S-CoreDream-8heady';
+        font-size: 50px;
+        border-bottom: 2px solid #006934;
+        display: block;
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+    .memu-ranking img{
+        width: 200px;
+        margin: 0 auto 5px auto;
+        padding: 0 -13px 0 10px;
+        font-size: 60px;
+        border-collapse:collapse;
+        vertical-align: top;
+        vertical-align: bottom;
+        vertical-align: middle;
+    }
+    .memu-ranking-name{
+        font-weight: 800;
+        font-size: 20px;
+        margin: 0;
+        display: block;
+    }
+    .memu-ranking-name2{
+        font-size: 14px;
+        margin: 0 0 1px 0;
+        display: block;
+    }
+    .sour-star{
+        padding: 15px 10px 15px 10px;
+        color: #fff;
+        font-size: 16px;
+        background-color: #006934;
+        border-radius: 200px;
+        margin: 10px 0 0 0;
+        display: inline;
+        text-align: right;
+    }
+    .sour-star2{
+        padding: 15px 10px 15px 10px;
+        color: #fff;
+        font-size: 16px;
+        background-color: #006934;
+        border-radius: 200px;
+        margin: 20px 0 6px 0;
+        display: inline-block;
+    }
+    .star img{
+        width: 20px;
+        height: 18px;
+        margin: -40px -8px -40px 0;
+        padding: -10px;
+        display: inline;
+    }
+}
+/* ---------------------------CAFE MAP------------------------ */
+@media screen and (max-width: 1000px){
+    .map{
+        display: block;
+        margin: -17px auto -0px 100px;
+        padding:-10px;
+        position: relative;
+    }
+    .map img{
+        display: block;
+        border-left: 2px solid #006934;
+        border-right: 2px solid #006934;
+        padding: 200px -10px 200px -10px;
+        width: 800px;
+    }
+    .map-stiker{
+        position: absolute;
+        right: 57px;
+        bottom: -220px;
+    }
+    .map-stiker img{
+        width: 180px;
+    }
+    .map-table{
+        text-align: center;
+        border-collapse:collapse;
+        white-space: nowrap;
+        padding: 0 150px 0 150px;
+        font-size: 35px;
+        color: #ffffe0;
+        border: 2px solid #003818;
+    }
+    table td{
+        border: 2px solid #003818;
+    }
+    .map-table strong{
+        font-size: 27px;
+    }
+    table img{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: block;
+        padding: 0 -2px -2px 0;
+    }
+    .map-text{
+        padding: 0 120px 0 120px;
+    }
+    .map-text-green{
+        padding: 0 120px 0 120px;
+        color: #006934;
+        font-size: 20px;
+    }
+    .map-text-green2{
+        color: #006934;
+        font-size: 20px;
+    }
+    .daegu-img img{
+        width: 500px;
+        height: auto;
+        margin: 0;
+    }
+    /* moving text */
+.animated-title2{
+    font-size: 30px;
+    font-weight: 800;
+    color: #006934;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    white-space: nowrap;
+    display: block;
+}
+.animated-title2 .track2{
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+}
+@media (hover: hover) and (min-width: 1200px){
+    .animated-title2 .content2{
+        -wedkit-transform: translateY(calc(100% - 8rem));
+        transform: translateY(calc(100% - 5.1rem));
+    }
+}
+}

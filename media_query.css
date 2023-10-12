@@ -38,17 +38,17 @@
         font-size: 22px;
         text-decoration: none;
         color: #006934;
-        margin: 10px 8px 10px 8px;
+        margin: 10px 4px 10px 4px;
         display: inline-block;
-        padding: 6px 14px 6px 14px;
+        padding: 6px 12px 6px 12px;
     }
     .memu-bar .memu-text a:hover{
         text-align: center;
         border-radius: 4rem;
         background-color:#006934;
         color: #fff;
-        padding: 6px 14px 6px 14px;
-        margin: 10px 8px 10px 8px;
+        padding: 6px 12px 6px 12px;
+        margin: 10px 4px 10px 4px;
     }
     .memu-bar{
         background-color: #ffffe0;
@@ -81,7 +81,7 @@
     }
     .main-banner{
         display: block;
-        margin: 10px auto 1px auto;
+        margin: 20px auto 1px auto;
     }
     .toptop{
         margin: 10px auto 70px auto;
@@ -106,14 +106,12 @@
     tr, td{
         border: 2px solid #006934;
     }
-    .sub-banner1 {max-width: 80%; height: auto; }
     .sub-banner1 img{
-        width: 125%;
+        width: 100%;
         height: auto;
         display: block;
         margin: -1px auto -1px auto;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
     }
     .sub-banner2 {display: none;}
     .sub-banner3 {display: none;}
@@ -160,8 +158,8 @@
         display: block;
         margin: -1px;
         padding: 0px;
-        height: 300px;
-        width: 300px;
+        height: 230px;
+        width: 230px;
     }
     .header{
         margin: 16px auto 16px auto;
@@ -170,7 +168,7 @@
         border-bottom: 2px solid #006934;
     }
     .header1{
-        font-size: 40px;
+        font-size: 25px;
         margin: 0 auto 0 auto;
         padding: 6px 2px 0 10px;
         display: inline-block;
@@ -179,21 +177,19 @@
     }
     .header2{
         vertical-align: bottom;
-        font-size: 35px;
+        font-size: 25px;
         display: inline-block;
         margin: 100px 10px 5px 10px;
     }
     .soursour{
         vertical-align: bottom;
         display: inline;
-        margin: 20px 0 0 0;
-        padding: 105px 0 0 10px;
-        width: 100%;
-        height: auto;
+        padding: 100px 0 0 10px;
     }
     .soursour img{
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
+        margin: 10px 0 0 0;
     }
     .bottom-icon img{
         display: inline;
@@ -257,7 +253,7 @@
         padding: 0 0 20px 0;
     }
     .memu-ranking img{
-        width: 200px;
+        width: 175px;
         margin: 0 auto 5px auto;
         padding: 0 -13px 0 10px;
         font-size: 60px;
@@ -296,11 +292,14 @@
         margin: 20px 0 6px 0;
         display: inline-block;
     }
+    .star{
+        margin: 0 0 0 -8px;
+    }
     .star img{
         width: 20px;
         height: 18px;
         margin: -40px -8px -40px 0;
-        padding: -10px;
+        padding: -15px;
         display: inline;
     }
 }
@@ -317,21 +316,20 @@
         border-left: 2px solid #006934;
         border-right: 2px solid #006934;
         padding: 200px -10px 200px -10px;
-        width: 800px;
+        width: 600px;
     }
     .map-stiker{
         position: absolute;
         right: 57px;
-        bottom: -220px;
+        bottom: -20px;
     }
     .map-stiker img{
-        width: 180px;
+        width: 160px;
     }
     .map-table{
         text-align: center;
         border-collapse:collapse;
         white-space: nowrap;
-        padding: 0 150px 0 150px;
         font-size: 35px;
         color: #ffffe0;
         border: 2px solid #003818;
@@ -340,7 +338,7 @@
         border: 2px solid #003818;
     }
     .map-table strong{
-        font-size: 27px;
+        font-size: 23px;
     }
     table img{
         text-align: center;
@@ -350,26 +348,24 @@
         padding: 0 -2px -2px 0;
     }
     .map-text{
-        padding: 0 120px 0 0;
         font-size: 20px;
     }
     .map-text_2{
         font-size: 20px;
     }
     .map-text_3{
-        font-size: 20px;
+        font-size: 15px;
     }
     .map-text-green{
-        padding: 0 120px 0 -10px;
         color: #006934;
-        font-size: 20px;
+        font-size: 15px;
     }
     .map-text-green2{
         color: #006934;
-        font-size: 20px;
+        font-size: 15px;
     }
     .daegu-img img{
-        width: 500px;
+        width: 400px;
         height: auto;
         margin: 0;
     }
@@ -433,21 +429,21 @@
     }
     .numder{
         color: #f2be3b;
-        font-size: 60px;
+        font-size: 50px;
         padding: 30px 25px 30px 25px;
         font-weight: 1000;
         font-family:'S-CoreDream-8heady';
     }
     .time{
         font-family:'S-CoreDream-8heady';
-        font-size: 24px;
+        font-size: 19px;
         font-weight: 800;
         white-space: nowrap;
         padding: 0 105px 0 105px;
     }
     .time-text{
         font-family:'S-CoreDream-8heady';
-        font-size: 20px;
+        font-size: 19px;
     }
     td.email-2{
         text-align: center;
@@ -462,7 +458,7 @@
        padding: 10px;
     }
     .email-text img{
-        width: 70px;
+        width: 60px;
      }
     .email-img img{
         margin: 0;

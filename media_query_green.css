@@ -71,6 +71,9 @@
         max-width: 40%;
         height: auto;
     }
+    .toptop{
+        margin: 10px auto 70px auto;
+    }
 }
 @media screen and (max-width: 1000px){
     /*---bottom line + bottom information---*/

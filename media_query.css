@@ -184,7 +184,7 @@
     .soursour{
         vertical-align: bottom;
         display: inline;
-        padding: 100px 0 0 10px;
+        padding: 110px 0 0 10px;
     }
     .soursour img{
         max-width: 80%;
@@ -321,7 +321,7 @@
     .map-stiker{
         position: absolute;
         right: 57px;
-        bottom: 20px;
+        bottom: 50px;
     }
     .map-stiker img{
         width: 160px;
